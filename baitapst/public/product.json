@@ -1,0 +1,34 @@
+[
+    {
+        "id":1,
+        "name": "Vo Case Bể Cá",
+        "idcategory":1
+    },
+    {
+        "id":2,
+        "name": "Vo Case Airflow ",
+        "idcategory":1
+    },
+    {
+        "id":3,
+        "name": "Vo Case Silent ",
+        "idcategory":1
+    },
+    {
+        "id":4,
+        "name": "Vo Case Open Frame ",
+        "idcategory":1
+    },
+    {
+        "id":2,
+        "name": "Ram"
+    },
+    {
+        "id":3,
+        "name": "CPU"
+    },
+    {
+        "id":4,
+        "name": "SSD/HDD"
+    }
+]
