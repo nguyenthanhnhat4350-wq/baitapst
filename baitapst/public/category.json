@@ -1,7 +1,7 @@
 [
     {
         "id":1,
-        "name": "Vo Case PC"
+        "name": "CPU"
     },
     {
         "id":2,
@@ -9,10 +9,34 @@
     },
     {
         "id":3,
-        "name": "CPU"
+        "name": "PSU (Nguồn)"
     },
     {
         "id":4,
-        "name": "SSD/HDD"
+        "name": "SSD/HDD (Thiết bị lưu trữ)"
+    },
+    {
+        "id":5,
+        "name": "Mainboard (Bo mạch chủ)"
+    },
+    {
+        "id":6,
+        "name": "VGA (Card đồ họa)"
+    },
+    {
+        "id":7,
+        "name": " Vỏ Case PC"
+    },
+    {
+        "id":8,
+        "name": "Tản nhiệt (Cooling)"
+    },
+    {
+        "id":9,
+        "name": "Bàn phím/Chuột"
+    },
+    {
+        "id":10,
+        "name": "Màn hình"
     }
 ]

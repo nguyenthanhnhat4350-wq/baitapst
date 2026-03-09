@@ -1,34 +1,112 @@
 [
-    {
-        "id":1,
-        "name": "Vo Case Bể Cá",
-        "idcategory":1
-    },
-    {
-        "id":2,
-        "name": "Vo Case Airflow ",
-        "idcategory":1
-    },
-    {
-        "id":3,
-        "name": "Vo Case Silent ",
-        "idcategory":1
-    },
-    {
-        "id":4,
-        "name": "Vo Case Open Frame ",
-        "idcategory":1
-    },
-    {
-        "id":2,
-        "name": "Ram"
-    },
-    {
-        "id":3,
-        "name": "CPU"
-    },
-    {
-        "id":4,
-        "name": "SSD/HDD"
-    }
+  { "id": 1, "name": "CPU Intel Core i3-12100", "idcategory": 1, "price": 2500000 },
+  { "id": 2, "name": "CPU Intel Core i5-13400F", "idcategory": 1, "price": 4800000 },
+  { "id": 3, "name": "CPU Intel Core i7-14700K", "idcategory": 1, "price": 10500000 },
+  { "id": 4, "name": "CPU AMD Ryzen 5 5600G", "idcategory": 1, "price": 3200000 },
+  { "id": 5, "name": "CPU AMD Ryzen 7 7800X3D", "idcategory": 1, "price": 11000000 },
+  { "id": 6, "name": "CPU Intel Core i9-14900KS", "idcategory": 1, "price": 18500000 },
+  { "id": 7, "name": "CPU AMD Ryzen 9 7950X", "idcategory": 1, "price": 14200000 },
+  { "id": 8, "name": "CPU Intel Core i5-12400", "idcategory": 1, "price": 3800000 },
+  { "id": 9, "name": "CPU AMD Ryzen 3 4100", "idcategory": 1, "price": 1500000 },
+  { "id": 10, "name": "CPU Intel Pentium Gold G7400", "idcategory": 1, "price": 1800000 },
+
+  { "id": 11, "name": "Ram DDR4 8GB 3200Mhz", "idcategory": 2, "price": 550000 },
+  { "id": 12, "name": "Ram DDR4 16GB RGB", "idcategory": 2, "price": 1100000 },
+  { "id": 13, "name": "Ram DDR5 16GB 4800Mhz", "idcategory": 2, "price": 1500000 },
+  { "id": 14, "name": "Ram Laptop 8GB DDR4", "idcategory": 2, "price": 600000 },
+  { "id": 15, "name": "Ram G.Skill Trident Z5 RGB", "idcategory": 2, "price": 3500000 },
+  { "id": 16, "name": "Ram Corsair Vengeance LPX", "idcategory": 2, "price": 1050000 },
+  { "id": 17, "name": "Ram Kingston Fury Beast", "idcategory": 2, "price": 1200000 },
+  { "id": 18, "name": "Ram Adata XPG Spectrix", "idcategory": 2, "price": 1400000 },
+  { "id": 19, "name": "Ram TeamGroup T-Force", "idcategory": 2, "price": 1300000 },
+  { "id": 20, "name": "Ram Crucial Ballistix", "idcategory": 2, "price": 1150000 },
+
+  { "id": 21, "name": "Nguon MSI MAG A650BN 650W", "idcategory": 3, "price": 1450000 },
+  { "id": 22, "name": "Nguon Corsair RM850e Gold", "idcategory": 3, "price": 3200000 },
+  { "id": 23, "name": "Nguon Cooler Master MWE 750W", "idcategory": 3, "price": 1850000 },
+  { "id": 24, "name": "Nguon ASUS TUF Gaming 1000W", "idcategory": 3, "price": 4500000 },
+  { "id": 25, "name": "Nguon Deepcool PK550D 550W", "idcategory": 3, "price": 1100000 },
+  { "id": 26, "name": "Nguon Seasonic B12 BC-650", "idcategory": 3, "price": 1600000 },
+  { "id": 27, "name": "Nguon Gigabyte P850GM Gold", "idcategory": 3, "price": 2800000 },
+  { "id": 28, "name": "Nguon Antec Zen 700W Gold", "idcategory": 3, "price": 1700000 },
+  { "id": 29, "name": "Nguon Mik S-Power 500W", "idcategory": 3, "price": 650000 },
+  { "id": 30, "name": "Nguon SilverStone ST75F 750W", "idcategory": 3, "price": 1950000 },
+
+  { "id": 31, "name": "SSD Samsung 980 Pro 1TB", "idcategory": 4, "price": 2450000 },
+  { "id": 32, "name": "SSD Kingston NV2 500GB Gen4", "idcategory": 4, "price": 1100000 },
+  { "id": 33, "name": "SSD Crucial P3 1TB M.2", "idcategory": 4, "price": 1650000 },
+  { "id": 34, "name": "SSD WD Blue SN580 500GB", "idcategory": 4, "price": 1250000 },
+  { "id": 35, "name": "HDD Seagate Barracuda 2TB", "idcategory": 4, "price": 1550000 },
+  { "id": 36, "name": "HDD WD Purple 4TB Camera", "idcategory": 4, "price": 2800000 },
+  { "id": 37, "name": "SSD Gigabyte Gen4 500GB", "idcategory": 4, "price": 1350000 },
+  { "id": 38, "name": "SSD MSI Spatium M450", "idcategory": 4, "price": 1450000 },
+  { "id": 39, "name": "SSD Lexar NM620 256GB", "idcategory": 4, "price": 750000 },
+  { "id": 40, "name": "HDD Toshiba P300 1TB", "idcategory": 4, "price": 1050000 },
+
+  { "id": 41, "name": "Mainboard ASUS ROG Strix Z790", "idcategory": 5, "price": 11500000 },
+  { "id": 42, "name": "Mainboard MSI B760M Bomber", "idcategory": 5, "price": 3200000 },
+  { "id": 43, "name": "Mainboard Gigabyte B650 Gaming X", "idcategory": 5, "price": 5450000 },
+  { "id": 44, "name": "Mainboard ASRock H610M-HDV", "idcategory": 5, "price": 2100000 },
+  { "id": 45, "name": "Mainboard ASUS Prime B550M-A", "idcategory": 5, "price": 3150000 },
+  { "id": 46, "name": "Mainboard MSI MAG Z690 Tomahawk", "idcategory": 5, "price": 6800000 },
+  { "id": 47, "name": "Mainboard Gigabyte Z790 AORUS ELITE", "idcategory": 5, "price": 8200000 },
+  { "id": 48, "name": "Mainboard ASUS TUF Gaming B760", "idcategory": 5, "price": 4600000 },
+  { "id": 49, "name": "Mainboard ASRock B450 Steel Legend", "idcategory": 5, "price": 2850000 },
+  { "id": 50, "name": "Mainboard MSI PRO H610M-E", "idcategory": 5, "price": 1950000 },
+
+  { "id": 51, "name": "VGA ASUS Dual RTX 4060 Ti", "idcategory": 6, "price": 11800000 },
+  { "id": 52, "name": "VGA MSI Ventus RTX 3060 12GB", "idcategory": 6, "price": 8500000 },
+  { "id": 53, "name": "VGA Gigabyte RTX 4070 Super", "idcategory": 6, "price": 17500000 },
+  { "id": 54, "name": "VGA ASUS ROG Strix RTX 4090", "idcategory": 6, "price": 58000000 },
+  { "id": 55, "name": "VGA Galax GTX 1650 4GB", "idcategory": 6, "price": 3800000 },
+  { "id": 56, "name": "VGA Sapphire Pulse RX 6600", "idcategory": 6, "price": 5900000 },
+  { "id": 57, "name": "VGA MSI Gaming X Slim RTX 4080", "idcategory": 6, "price": 32500000 },
+  { "id": 58, "name": "VGA ASUS TUF RX 7900 XTX", "idcategory": 6, "price": 28500000 },
+  { "id": 59, "name": "VGA Gigabyte GTX 1660 Super", "idcategory": 6, "price": 5200000 },
+  { "id": 60, "name": "VGA Colorful RTX 3050 NB", "idcategory": 6, "price": 6100000 },
+
+  { "id": 61, "name": "Vo Case Bể Cá", "idcategory": 7, "price": 1850000 },
+  { "id": 62, "name": "Vo Case Airflow", "idcategory": 7, "price": 1250000 },
+  { "id": 63, "name": "Vo Case Silent", "idcategory": 7, "price": 2100000 },
+  { "id": 64, "name": "Vo Case Open Frame", "idcategory": 7, "price": 3500000 },
+  { "id": 65, "name": "Vo Case Mini-ITX", "idcategory": 7, "price": 2800000 },
+  { "id": 66, "name": "Vo Case Full Tower", "idcategory": 7, "price": 4200000 },
+  { "id": 67, "name": "Vo Case Mid Tower RGB", "idcategory": 7, "price": 1550000 },
+  { "id": 68, "name": "Vo Case Gaming Kính Cường Lực", "idcategory": 7, "price": 1950000 },
+  { "id": 69, "name": "Vo Case Văn Phòng Trắng", "idcategory": 7, "price": 650000 },
+  { "id": 70, "name": "Vo Case Dual Chamber", "idcategory": 7, "price": 2450000 },
+
+  { "id": 71, "name": "Tan nhiet Nuoc AIO Deepcool LS720", "idcategory": 8, "price": 3200000 },
+  { "id": 72, "name": "Tan nhiet Khi ID-Cooling SE-214-XT", "idcategory": 8, "price": 450000 },
+  { "id": 73, "name": "Tan nhiet Nuoc ASUS ROG Ryujin III", "idcategory": 8, "price": 9500000 },
+  { "id": 74, "name": "Tan nhiet Khi Cooler Master Hyper 212", "idcategory": 8, "price": 850000 },
+  { "id": 75, "name": "Tan nhiet Nuoc MSI MAG CoreLiquid", "idcategory": 8, "price": 2850000 },
+  { "id": 76, "name": "Tan nhiet Khi Thermalright Assassin X", "idcategory": 8, "price": 550000 },
+  { "id": 77, "name": "Quat Case Corsair LL120 RGB", "idcategory": 8, "price": 800000 },
+  { "id": 78, "name": "Quat Case Lian Li Uni Fan SL120", "idcategory": 8, "price": 750000 },
+  { "id": 79, "name": "Tan nhiet Khi Noctua NH-D15 Chroma", "idcategory": 8, "price": 3100000 },
+  { "id": 80, "name": "Tan nhiet Nuoc Gigabyte Waterforce", "idcategory": 8, "price": 5200000 },
+
+  { "id": 81, "name": "Man hinh ASUS ProArt 27 inch 2K", "idcategory": 9, "price": 12500000 },
+  { "id": 82, "name": "Man hinh LG UltraGear 24 inch 144Hz", "idcategory": 9, "price": 4200000 },
+  { "id": 83, "name": "Man hinh Samsung Odyssey G5 32 inch", "idcategory": 9, "price": 8500000 },
+  { "id": 84, "name": "Man hinh Dell UltraSharp U2422H", "idcategory": 9, "price": 6200000 },
+  { "id": 85, "name": "Man hinh MSI G2712 27 inch IPS", "idcategory": 9, "price": 4800000 },
+  { "id": 86, "name": "Man hinh Gigabyte G24F 2 165Hz", "idcategory": 9, "price": 4100000 },
+  { "id": 87, "name": "Man hinh AOC 24G2 Gaming IPS", "idcategory": 9, "price": 3850000 },
+  { "id": 88, "name": "Man hinh ViewSonic VA2432-H", "idcategory": 9, "price": 2450000 },
+  { "id": 89, "name": "Man hinh ASUS TUF Gaming VG279Q", "idcategory": 9, "price": 5600000 },
+  { "id": 90, "name": "Man hinh Samsung Smart Monitor M5", "idcategory": 9, "price": 6800000 },
+
+  { "id": 91, "name": "Ban phim Co Akko 3087 DS", "idcategory": 10, "price": 1250000 },
+  { "id": 92, "name": "Chuot Logitech G502 Hero", "idcategory": 10, "price": 950000 },
+  { "id": 93, "name": "Ban phim Razer BlackWidow V4", "idcategory": 10, "price": 4800000 },
+  { "id": 94, "name": "Chuot Razer DeathAdder V3", "idcategory": 10, "price": 1850000 },
+  { "id": 95, "name": "Ban phim Corsair K70 RGB MK.2", "idcategory": 10, "price": 3650000 },
+  { "id": 96, "name": "Chuot không dây Logitech G304", "idcategory": 10, "price": 750000 },
+  { "id": 97, "name": "Ban phim Co Dareu EK87", "idcategory": 10, "price": 650000 },
+  { "id": 98, "name": "Chuot Gaming Dareu EM908", "idcategory": 10, "price": 350000 },
+  { "id": 99, "name": "Tai nghe Kingston HyperX Cloud II", "idcategory": 10, "price": 1950000 },
+  { "id": 100,"name": "Lot chuot SteelSeries QCK Large", "idcategory": 10, "price": 450000 }
 ]
+
